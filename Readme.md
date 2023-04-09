@@ -16,11 +16,11 @@ The `runConfigurations` directory contains the run configurations you can use to
 -----------------------------
 
 
-Download java 20, however at 2023-04-01, class `ExtentLocal(jdk.incubator.concurrent.ExtentLocal)` was not available in java 20 jdk.      
+Download java 20, however as of date 2023-04-01, class `ExtentLocal(jdk.incubator.concurrent.ExtentLocal)` was not available in java 20 jdk.      
 It took sometime to make this work in commandline and more time in intelliJ-idea.   
 Same steps can be followed for [this](https://github.com/JosePaumard/2022_javaone-loom-livelab) preject as well.   
 
-1. Download [java-20/21](https://adoptium.net/temurin/releases/?version=20) standard build or [preview build](https://jdk.java.net/21/)   
+1. Download [java-20/21](https://adoptium.net/temurin/releases/?version=20) standard build or [EA build](https://jdk.java.net/21/)   
 2. Maven config       
 1. To add it in maven, update pom.xml to     
 ```xml
