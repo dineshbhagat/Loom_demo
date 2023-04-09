@@ -59,8 +59,8 @@ export MAVEN_OPTS="--enable-preview --add-modules=jdk.incubator.concurrent --add
 4. Run `mvn clean install`
 
 3. Intellij-Idea config:   Update java Compiler option in intellij-idea   
-i. settings --> Build, Execution, Deployment --> Compiler --> Java Compiler --> intick "Use --release option for cross-compilation (Java 9 or later)   
-ii. Under javac options --> additional command line parameters --> add this `--enable-preview --add-modules jdk.incubator.concurrent --add-exports java.base/jdk.internal.vm=ALL-UNNAMED`. --> apply ok   
-iii. Add --enable-preview --add-modules=jdk.incubator.concurrent --add-exports=java.base/jdk.internal.vm=ALL-UNNAMED to VM aruments in run configuration for each of the class you need to run.
+i. `settings` --> `Build, Execution, Deployment` --> `Compiler` --> `Java Compiler` --> untick option "Use --release option for cross-compilation (Java 9 or later)"       
+ii. Under javac options --> additional command line parameters --> add this `--enable-preview --add-modules jdk.incubator.concurrent --add-exports java.base/jdk.internal.vm=ALL-UNNAMED` --> apply ok   
+iii. Add `--enable-preview --add-modules=jdk.incubator.concurrent --add-exports=java.base/jdk.internal.vm=ALL-UNNAMED` to VM arguments in each of the class run configurations you want to run.   
 
 4. rebuild the project and run the class.  
