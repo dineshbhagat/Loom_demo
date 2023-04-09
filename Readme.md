@@ -63,6 +63,7 @@ i. `settings` --> `Build, Execution, Deployment` --> `Compiler` --> `Java Compil
 ii. Under javac options --> additional command line parameters --> add this `--enable-preview --add-modules jdk.incubator.concurrent --add-exports java.base/jdk.internal.vm=ALL-UNNAMED` --> apply ok   
 iii. Add `--enable-preview --add-modules=jdk.incubator.concurrent --add-exports=java.base/jdk.internal.vm=ALL-UNNAMED` to VM arguments in each of the class run configurations you want to run.   
 iv. Change Project config, `File` --> `Project Structure` --> Project --> SDK --> Select Java 20/21 --> Language Level --> `20(Preview) - Record patterns ...`, modules config Langauage level --> `20(Preview) - Record patterns ...`
+V. Update to latest Intellij-idea IDE, verified with 2023.1 version
 
 
 6. rebuild the project and run the class.  
