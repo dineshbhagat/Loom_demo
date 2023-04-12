@@ -13,6 +13,8 @@ The version of Loom you need to run the examples is `jdk-19-loom+6-625`.
 
 The `runConfigurations` directory contains the run configurations you can use to run the various examples. They have been created using IntelliJ IDEA and may not be working with other IDEs. 
 
+Latest Ref: https://github.com/JosePaumard/JDK20_2023-Loom-Lab
+
 -----------------------------
    
 It took sometime to make this project work in commandline and more time in intelliJ-idea :smily:   
